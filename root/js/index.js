@@ -23,7 +23,7 @@ controle.onclick = function () {
         clearInterval(timer);
         controle.className = 'play';
     } else {
-        timer = setInterval(trocaBanner, 4000);
+        timer = setInterval(trocaBanner, 1000);
         controle.className = 'pause';
     }
     return false;
